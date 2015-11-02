@@ -1,2 +1,3 @@
-# ga-wdi-notes
-Notes
+# GA WDI Notes
+
+My notes for the GA WDI.
