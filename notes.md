@@ -42,4 +42,4 @@
 - curl -- a browser for the terminal
 - find -- lists files and directories in a tree display
 - grep -- search for specific words in a file
-- **/*.txt -- a way to get all files of a specific file type
+- \*\*/\*.txt -- a way to get all files of a specific file type
