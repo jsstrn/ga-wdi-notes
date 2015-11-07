@@ -1,3 +1,3 @@
-# General Assembly Web Development Immersive Notes
+# GA-WDI Notes
 
-My notes for the [GA WDI](ga.co/wdi) program.
+My notes for General Assembly's [Web Development Immersive](ga.co/wdi).
