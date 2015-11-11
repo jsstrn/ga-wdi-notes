@@ -126,9 +126,10 @@
 - `npm init`
 - `npm install babelify browserify babel-preset-es2015 --save`
 - `browserify game.js --outfile game.dist.js --transform babelify`
-
-```json
+- Add the above line of code to the `package.json`
+```js
 "scripts" : {
   "build" : "browserify game.js --outfile game.dist.js --transform babelify"
 }
 ```
+- Now you can just run `npm run build`
