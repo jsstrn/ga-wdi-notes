@@ -124,12 +124,20 @@
 
 ## Workflow
 - `npm init`
-- `npm install babelify browserify babel-preset-es2015 --save`
+- `npm install babelify browserify babel-preset-es2015 standard --save`
 - `browserify game.js --outfile game.dist.js --transform babelify`
 - Add the above line of code to the `package.json`
 ```js
 "scripts" : {
-  "build" : "browserify game.js --outfile game.dist.js --transform babelify"
+  "test": "standard"
+  "build": "browserify game.js --outfile game.dist.js --transform babelify"
 }
 ```
 - Now you can just run `npm run build`
+- Create a `.gitignore` file
+```
+node_modules/
+*.dist.js
+.DS_Store
+```
+- 
