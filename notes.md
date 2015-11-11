@@ -91,6 +91,15 @@
 - [Ternary operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator): `condition ? statement_if_true : statement_if_false`
 - DOM https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
 
+### Testing in JavaScript
+- Mocha, Chai, Jasmine are some tools for testing JavaScript
+
+### npm
+- `npm init` -- creates package.json which contains all our dependencies
+- `npm install watch-spawn --save` -- install package and save it as a dependency in package.json
+- All packages live in the `node_modules` directory and should be **excluded** in your git repo
+- Create a `.gitignore` file and add `node_modules` to exclude the directory
+
 ### Running an HTTP Server
 - Open Terminal and type `npm install http-server` -- installs http-server to a specific directory
 - Then run `./node_modules/.bin/http-server` -- runs the http-server
