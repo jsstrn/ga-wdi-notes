@@ -121,3 +121,14 @@
 - `clearTimeout(timerID)`
 - `clearInterval(timerID)`
 -  `requestAnimationFrame(func)` -- better for animations
+
+## Workflow
+- `npm init`
+- `npm install babelify browserify babel-preset-es2015 --save`
+- `browserify game.js --outfile game.dist.js --transform babelify`
+
+```json
+"scripts" : {
+  "build" : "browserify game.js --outfile game.dist.js --transform babelify"
+}
+```
