@@ -2,6 +2,8 @@
 
 First we'll create a new Git repository on GitHub, include a license and a `README.md` file. Next, clone the repo to your local computer.
 
+Run `npm init` to create a `package.json` file.
+
 Install npm packages:
   - `npm i --save browserify babelify babel-preset-es2015 http-server standard`
   - `npm i --save-dev watch-spawn watchify`
