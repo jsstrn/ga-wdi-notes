@@ -4,5 +4,16 @@
 
 ## Test Driven Development (TDD)
 
+0. Write tests first
+0. Write your code
+0. Check if your tests pass
+0. Refactor your code
+
 - TDD with Mocha and Chai
 - `npm i --save-dev mocha chai`
+
+### Test Coverage
+
+- Instanbul - line coverage (lcov)
+- [mocha lcov reporter](https://www.npmjs.com/package/mocha-lcov-reporter)
+- Codecov.io
